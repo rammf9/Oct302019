@@ -1,0 +1,58 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Demo tours login functionality checking with valid credentials",
+        "description": "",
+        "id": "demo-tours-login-functionality-checking;demo-tours-login-functionality-checking-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17771385500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open the browser and pass the applicaiton url",
+            "match": {
+              "location": "DemoLoginStefDef1.open_the_browser_and_pass_the_applicaiton_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20840323900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter the valid user id and password",
+            "match": {
+              "location": "DemoLoginStefDef1.enter_the_valid_user_id_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 135521700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Signout options should be visitilbe in the next page",
+            "match": {
+              "location": "DemoLoginStefDef1.signout_options_should_be_visitilbe_in_the_next_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Demo tours login functionality checking",
+    "description": "",
+    "id": "demo-tours-login-functionality-checking",
+    "keyword": "Feature",
+    "uri": "java/featurefolder1/demotours.feature"
+  }
+]
